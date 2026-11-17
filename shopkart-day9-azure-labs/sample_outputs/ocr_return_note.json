@@ -1,0 +1,659 @@
+{
+ "_note": "ILLUSTRATIVE sample in the same shape as ImageAnalysisResult.as_dict() for VisualFeatures.READ. Used in OFFLINE mode. Run the lab with real keys to overwrite with a live response.",
+ "modelVersion": "2023-10-01",
+ "metadata": {
+  "width": 900,
+  "height": 520
+ },
+ "readResult": {
+  "blocks": [
+   {
+    "lines": [
+     {
+      "text": "Order ID: ORD-2026-0004",
+      "boundingPolygon": [
+       {
+        "x": 60,
+        "y": 50
+       },
+       {
+        "x": 411,
+        "y": 48
+       },
+       {
+        "x": 411,
+        "y": 81
+       },
+       {
+        "x": 60,
+        "y": 83
+       }
+      ],
+      "words": [
+       {
+        "text": "Order",
+        "boundingPolygon": [
+         {
+          "x": 60,
+          "y": 50
+         },
+         {
+          "x": 135,
+          "y": 49
+         },
+         {
+          "x": 135,
+          "y": 80
+         },
+         {
+          "x": 60,
+          "y": 81
+         }
+        ],
+        "confidence": 0.922
+       },
+       {
+        "text": "ID:",
+        "boundingPolygon": [
+         {
+          "x": 147,
+          "y": 50
+         },
+         {
+          "x": 192,
+          "y": 49
+         },
+         {
+          "x": 192,
+          "y": 80
+         },
+         {
+          "x": 147,
+          "y": 81
+         }
+        ],
+        "confidence": 0.947
+       },
+       {
+        "text": "ORD-2026-0004",
+        "boundingPolygon": [
+         {
+          "x": 204,
+          "y": 50
+         },
+         {
+          "x": 399,
+          "y": 49
+         },
+         {
+          "x": 399,
+          "y": 80
+         },
+         {
+          "x": 204,
+          "y": 81
+         }
+        ],
+        "confidence": 0.944
+       }
+      ]
+     },
+     {
+      "text": "Item: Running Shoes Ultrab00st",
+      "boundingPolygon": [
+       {
+        "x": 60,
+        "y": 102
+       },
+       {
+        "x": 513,
+        "y": 100
+       },
+       {
+        "x": 513,
+        "y": 133
+       },
+       {
+        "x": 60,
+        "y": 135
+       }
+      ],
+      "words": [
+       {
+        "text": "Item:",
+        "boundingPolygon": [
+         {
+          "x": 60,
+          "y": 102
+         },
+         {
+          "x": 135,
+          "y": 101
+         },
+         {
+          "x": 135,
+          "y": 132
+         },
+         {
+          "x": 60,
+          "y": 133
+         }
+        ],
+        "confidence": 0.905
+       },
+       {
+        "text": "Running",
+        "boundingPolygon": [
+         {
+          "x": 147,
+          "y": 102
+         },
+         {
+          "x": 252,
+          "y": 101
+         },
+         {
+          "x": 252,
+          "y": 132
+         },
+         {
+          "x": 147,
+          "y": 133
+         }
+        ],
+        "confidence": 0.907
+       },
+       {
+        "text": "Shoes",
+        "boundingPolygon": [
+         {
+          "x": 264,
+          "y": 102
+         },
+         {
+          "x": 339,
+          "y": 101
+         },
+         {
+          "x": 339,
+          "y": 132
+         },
+         {
+          "x": 264,
+          "y": 133
+         }
+        ],
+        "confidence": 0.911
+       },
+       {
+        "text": "Ultrab00st",
+        "boundingPolygon": [
+         {
+          "x": 351,
+          "y": 102
+         },
+         {
+          "x": 501,
+          "y": 101
+         },
+         {
+          "x": 501,
+          "y": 132
+         },
+         {
+          "x": 351,
+          "y": 133
+         }
+        ],
+        "confidence": 0.612
+       }
+      ]
+     },
+     {
+      "text": "Reason: Size 9 is too tight,",
+      "boundingPolygon": [
+       {
+        "x": 60,
+        "y": 154
+       },
+       {
+        "x": 477,
+        "y": 152
+       },
+       {
+        "x": 477,
+        "y": 185
+       },
+       {
+        "x": 60,
+        "y": 187
+       }
+      ],
+      "words": [
+       {
+        "text": "Reason:",
+        "boundingPolygon": [
+         {
+          "x": 60,
+          "y": 154
+         },
+         {
+          "x": 165,
+          "y": 153
+         },
+         {
+          "x": 165,
+          "y": 184
+         },
+         {
+          "x": 60,
+          "y": 185
+         }
+        ],
+        "confidence": 0.922
+       },
+       {
+        "text": "Size",
+        "boundingPolygon": [
+         {
+          "x": 177,
+          "y": 154
+         },
+         {
+          "x": 237,
+          "y": 153
+         },
+         {
+          "x": 237,
+          "y": 184
+         },
+         {
+          "x": 177,
+          "y": 185
+         }
+        ],
+        "confidence": 0.931
+       },
+       {
+        "text": "9",
+        "boundingPolygon": [
+         {
+          "x": 249,
+          "y": 154
+         },
+         {
+          "x": 264,
+          "y": 153
+         },
+         {
+          "x": 264,
+          "y": 184
+         },
+         {
+          "x": 249,
+          "y": 185
+         }
+        ],
+        "confidence": 0.915
+       },
+       {
+        "text": "is",
+        "boundingPolygon": [
+         {
+          "x": 276,
+          "y": 154
+         },
+         {
+          "x": 306,
+          "y": 153
+         },
+         {
+          "x": 306,
+          "y": 184
+         },
+         {
+          "x": 276,
+          "y": 185
+         }
+        ],
+        "confidence": 0.925
+       },
+       {
+        "text": "too",
+        "boundingPolygon": [
+         {
+          "x": 318,
+          "y": 154
+         },
+         {
+          "x": 363,
+          "y": 153
+         },
+         {
+          "x": 363,
+          "y": 184
+         },
+         {
+          "x": 318,
+          "y": 185
+         }
+        ],
+        "confidence": 0.919
+       },
+       {
+        "text": "tight,",
+        "boundingPolygon": [
+         {
+          "x": 375,
+          "y": 154
+         },
+         {
+          "x": 465,
+          "y": 153
+         },
+         {
+          "x": 465,
+          "y": 184
+         },
+         {
+          "x": 375,
+          "y": 185
+         }
+        ],
+        "confidence": 0.918
+       }
+      ]
+     },
+     {
+      "text": "please exchange for size 10.",
+      "boundingPolygon": [
+       {
+        "x": 60,
+        "y": 206
+       },
+       {
+        "x": 480,
+        "y": 204
+       },
+       {
+        "x": 480,
+        "y": 237
+       },
+       {
+        "x": 60,
+        "y": 239
+       }
+      ],
+      "words": [
+       {
+        "text": "please",
+        "boundingPolygon": [
+         {
+          "x": 60,
+          "y": 206
+         },
+         {
+          "x": 150,
+          "y": 205
+         },
+         {
+          "x": 150,
+          "y": 236
+         },
+         {
+          "x": 60,
+          "y": 237
+         }
+        ],
+        "confidence": 0.929
+       },
+       {
+        "text": "exchange",
+        "boundingPolygon": [
+         {
+          "x": 162,
+          "y": 206
+         },
+         {
+          "x": 282,
+          "y": 205
+         },
+         {
+          "x": 282,
+          "y": 236
+         },
+         {
+          "x": 162,
+          "y": 237
+         }
+        ],
+        "confidence": 0.929
+       },
+       {
+        "text": "for",
+        "boundingPolygon": [
+         {
+          "x": 294,
+          "y": 206
+         },
+         {
+          "x": 339,
+          "y": 205
+         },
+         {
+          "x": 339,
+          "y": 236
+         },
+         {
+          "x": 294,
+          "y": 237
+         }
+        ],
+        "confidence": 0.945
+       },
+       {
+        "text": "size",
+        "boundingPolygon": [
+         {
+          "x": 351,
+          "y": 206
+         },
+         {
+          "x": 411,
+          "y": 205
+         },
+         {
+          "x": 411,
+          "y": 236
+         },
+         {
+          "x": 351,
+          "y": 237
+         }
+        ],
+        "confidence": 0.934
+       },
+       {
+        "text": "10.",
+        "boundingPolygon": [
+         {
+          "x": 423,
+          "y": 206
+         },
+         {
+          "x": 468,
+          "y": 205
+         },
+         {
+          "x": 468,
+          "y": 236
+         },
+         {
+          "x": 423,
+          "y": 237
+         }
+        ],
+        "confidence": 0.946
+       }
+      ]
+     },
+     {
+      "text": "Name: Rahul Verma Ph: 98480 12345",
+      "boundingPolygon": [
+       {
+        "x": 60,
+        "y": 258
+       },
+       {
+        "x": 552,
+        "y": 256
+       },
+       {
+        "x": 552,
+        "y": 289
+       },
+       {
+        "x": 60,
+        "y": 291
+       }
+      ],
+      "words": [
+       {
+        "text": "Name:",
+        "boundingPolygon": [
+         {
+          "x": 60,
+          "y": 258
+         },
+         {
+          "x": 135,
+          "y": 257
+         },
+         {
+          "x": 135,
+          "y": 288
+         },
+         {
+          "x": 60,
+          "y": 289
+         }
+        ],
+        "confidence": 0.943
+       },
+       {
+        "text": "Rahul",
+        "boundingPolygon": [
+         {
+          "x": 147,
+          "y": 258
+         },
+         {
+          "x": 222,
+          "y": 257
+         },
+         {
+          "x": 222,
+          "y": 288
+         },
+         {
+          "x": 147,
+          "y": 289
+         }
+        ],
+        "confidence": 0.95
+       },
+       {
+        "text": "Verma",
+        "boundingPolygon": [
+         {
+          "x": 234,
+          "y": 258
+         },
+         {
+          "x": 309,
+          "y": 257
+         },
+         {
+          "x": 309,
+          "y": 288
+         },
+         {
+          "x": 234,
+          "y": 289
+         }
+        ],
+        "confidence": 0.934
+       },
+       {
+        "text": "Ph:",
+        "boundingPolygon": [
+         {
+          "x": 321,
+          "y": 258
+         },
+         {
+          "x": 366,
+          "y": 257
+         },
+         {
+          "x": 366,
+          "y": 288
+         },
+         {
+          "x": 321,
+          "y": 289
+         }
+        ],
+        "confidence": 0.908
+       },
+       {
+        "text": "98480",
+        "boundingPolygon": [
+         {
+          "x": 378,
+          "y": 258
+         },
+         {
+          "x": 453,
+          "y": 257
+         },
+         {
+          "x": 453,
+          "y": 288
+         },
+         {
+          "x": 378,
+          "y": 289
+         }
+        ],
+        "confidence": 0.943
+       },
+       {
+        "text": "12345",
+        "boundingPolygon": [
+         {
+          "x": 465,
+          "y": 258
+         },
+         {
+          "x": 540,
+          "y": 257
+         },
+         {
+          "x": 540,
+          "y": 288
+         },
+         {
+          "x": 465,
+          "y": 289
+         }
+        ],
+        "confidence": 0.948
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,18 @@
+# Local Azure emulators for Day 9 (works on Windows, macOS Intel/Apple Silicon, Linux)
+#   docker compose up -d        -> start
+#   docker compose down         -> stop
+services:
+  cosmos:
+    image: mcr.microsoft.com/cosmosdb/linux/azure-cosmos-emulator:vnext-latest
+    container_name: shopkart-cosmos
+    command: ["--protocol", "http"]
+    ports:
+      - "8081:8081"   # Cosmos DB NoSQL API (gateway)
+      - "1234:1234"   # Data Explorer UI -> http://localhost:1234
+      - "8080:8080"   # health probe
+  azurite:
+    image: mcr.microsoft.com/azure-storage/azurite
+    container_name: shopkart-azurite
+    command: ["azurite-blob", "--blobHost", "0.0.0.0", "--blobPort", "10000", "--loose", "--skipApiVersionCheck"]
+    ports:
+      - "10000:10000" # Blob service

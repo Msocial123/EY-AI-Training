@@ -1,0 +1,184 @@
+{
+ "_note": "ILLUSTRATIVE sample in the same shape as AnalyzeResult.as_dict() for model 'prebuilt-receipt'. Used in OFFLINE mode.",
+ "apiVersion": "2024-11-30",
+ "modelId": "prebuilt-receipt",
+ "content": "SHOPKART EXPRESS STORE\nBanjara Hills, Hyderabad ...",
+ "documents": [
+  {
+   "docType": "receipt.retailMeal",
+   "confidence": 0.98,
+   "fields": {
+    "MerchantName": {
+     "type": "string",
+     "valueString": "SHOPKART EXPRESS STORE",
+     "content": "SHOPKART EXPRESS STORE",
+     "confidence": 0.97
+    },
+    "MerchantAddress": {
+     "type": "address",
+     "content": "Banjara Hills, Hyderabad",
+     "confidence": 0.9
+    },
+    "MerchantPhoneNumber": {
+     "type": "phoneNumber",
+     "valuePhoneNumber": "+914023456789",
+     "content": "040-2345 6789",
+     "confidence": 0.88
+    },
+    "TransactionDate": {
+     "type": "date",
+     "valueDate": "2026-11-14",
+     "content": "14/11/2026",
+     "confidence": 0.96
+    },
+    "TransactionTime": {
+     "type": "time",
+     "valueTime": "18:42:00",
+     "content": "18:42",
+     "confidence": 0.95
+    },
+    "Items": {
+     "type": "array",
+     "valueArray": [
+      {
+       "type": "object",
+       "valueObject": {
+        "Description": {
+         "type": "string",
+         "valueString": "Tata Tea Gold 1kg",
+         "content": "Tata Tea Gold 1kg",
+         "confidence": 0.9
+        },
+        "Quantity": {
+         "type": "number",
+         "valueNumber": 1,
+         "content": "1",
+         "confidence": 0.88
+        },
+        "TotalPrice": {
+         "type": "currency",
+         "valueCurrency": {
+          "amount": 560.0,
+          "currencySymbol": "Rs.",
+          "currencyCode": "INR"
+         },
+         "content": "560.00",
+         "confidence": 0.92
+        }
+       },
+       "content": "Tata Tea Gold 1kg",
+       "confidence": 0.9
+      },
+      {
+       "type": "object",
+       "valueObject": {
+        "Description": {
+         "type": "string",
+         "valueString": "Aashirvaad Atta 10kg",
+         "content": "Aashirvaad Atta 10kg",
+         "confidence": 0.9
+        },
+        "Quantity": {
+         "type": "number",
+         "valueNumber": 2,
+         "content": "2",
+         "confidence": 0.88
+        },
+        "TotalPrice": {
+         "type": "currency",
+         "valueCurrency": {
+          "amount": 930.0,
+          "currencySymbol": "Rs.",
+          "currencyCode": "INR"
+         },
+         "content": "930.00",
+         "confidence": 0.92
+        }
+       },
+       "content": "Aashirvaad Atta 10kg",
+       "confidence": 0.9
+      },
+      {
+       "type": "object",
+       "valueObject": {
+        "Description": {
+         "type": "string",
+         "valueString": "Haldiram Bhujia 1kg",
+         "content": "Haldiram Bhujia 1kg",
+         "confidence": 0.9
+        },
+        "Quantity": {
+         "type": "number",
+         "valueNumber": 1,
+         "content": "1",
+         "confidence": 0.88
+        },
+        "TotalPrice": {
+         "type": "currency",
+         "valueCurrency": {
+          "amount": 240.0,
+          "currencySymbol": "Rs.",
+          "currencyCode": "INR"
+         },
+         "content": "240.00",
+         "confidence": 0.92
+        }
+       },
+       "content": "Haldiram Bhujia 1kg",
+       "confidence": 0.9
+      },
+      {
+       "type": "object",
+       "valueObject": {
+        "Description": {
+         "type": "string",
+         "valueString": "Milton Bottle 1L",
+         "content": "Milton Bottle 1L",
+         "confidence": 0.9
+        },
+        "Quantity": {
+         "type": "number",
+         "valueNumber": 1,
+         "content": "1",
+         "confidence": 0.88
+        },
+        "TotalPrice": {
+         "type": "currency",
+         "valueCurrency": {
+          "amount": 549.0,
+          "currencySymbol": "Rs.",
+          "currencyCode": "INR"
+         },
+         "content": "549.00",
+         "confidence": 0.92
+        }
+       },
+       "content": "Milton Bottle 1L",
+       "confidence": 0.9
+      }
+     ]
+    },
+    "Subtotal": {
+     "type": "currency",
+     "valueCurrency": {
+      "amount": 2279.0,
+      "currencySymbol": "Rs.",
+      "currencyCode": "INR"
+     },
+     "content": "2279.00",
+     "confidence": 0.95
+    },
+    "Total": {
+     "type": "currency",
+     "valueCurrency": {
+      "amount": 2279.0,
+      "currencySymbol": "Rs.",
+      "currencyCode": "INR"
+     },
+     "content": "2279.00",
+     "confidence": 0.97
+    }
+   }
+  }
+ ]
+}
