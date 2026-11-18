@@ -1,0 +1,6 @@
+sales_date,category,orders,units_sold,revenue_incl_gst
+2026-11-17,Electronics,1,1,29498.82
+2026-11-17,Fashion,2,5,5895.28
+2026-11-18,Electronics,1,1,64898.82
+2026-11-18,Home & Kitchen,2,6,5184.92
+2026-11-18,Fashion,1,1,2948.82

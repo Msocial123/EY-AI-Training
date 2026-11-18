@@ -1,0 +1,12 @@
+{
+  "pipeline": "shopease_daily_sales",
+  "status": "SUCCESS",
+  "started_at": "2026-11-18T07:56:43",
+  "finished_at": "2026-11-18T07:56:43",
+  "row_counts": {
+    "fact_orders": 8,
+    "rejected_orders": 5,
+    "daily_category_sales": 5,
+    "supplier_invoices": 3
+  }
+}

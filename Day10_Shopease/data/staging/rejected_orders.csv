@@ -1,0 +1,6 @@
+order_id,order_date,customer_id,product_id,category,quantity,unit_price,city,status,source_file,reject_reason
+ORD-1003,2026-11-17,,P-210,Home & Kitchen,1,3499.0,Chennai,PLACED,orders_2026-11-18.csv,missing customer_id; 
+ORD-1004,2026-11-17,CUST-504,P-301,Electronics,0,24999.0,Mumbai,PLACED,orders_2026-11-18.csv,invalid quantity; 
+ORD-1007,2026-11-18,CUST-507,P-305,Electronics,1,,Delhi,PLACED,orders_2026-11-18.csv,invalid unit_price; 
+ORD-1010,2026-11-18,CUST-510,P-302,Electronics,2,15999.0,Hyderabad,RETURNED,orders_2026-11-18.csv,unknown status; 
+ORD-1011,,CUST-511,P-120,Fashion,1,999.0,Chennai,PLACED,orders_2026-11-18.csv,invalid order_date; 

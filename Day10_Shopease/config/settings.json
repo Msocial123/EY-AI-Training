@@ -1,0 +1,12 @@
+{
+  "raw_dir": "data/raw",
+  "orders_file_pattern": "orders_*.csv",
+  "staging_dir": "data/staging",
+  "processed_dir": "data/processed",
+  "database_path": "data/warehouse/shopease.db",
+  "log_dir": "logs",
+  "gst_rate": 0.18,
+  "valid_statuses": ["PLACED", "SHIPPED", "DELIVERED", "CANCELLED"],
+  "schedule_time": "02:00",
+  "blob_container": "pipeline-reports"
+}

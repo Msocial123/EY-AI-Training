@@ -1,0 +1,14 @@
+# Core pipeline
+pandas>=2.1
+pymupdf>=1.24
+schedule>=1.2
+
+# Optional: upload reports to Azure Blob Storage
+azure-storage-blob>=12.19
+
+# Optional: build and submit the Azure ML pipeline
+azure-ai-ml>=1.15
+azure-identity>=1.15
+
+# Testing
+pytest>=8.0

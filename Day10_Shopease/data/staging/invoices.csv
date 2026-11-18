@@ -1,0 +1,4 @@
+invoice_no,supplier,invoice_date,subtotal,tax,total,source_file,is_valid
+INV-2026-1101,Sunrise Electronics Pvt Ltd,2026-11-17,125000.0,22500.0,147500.0,INV-2026-1101.pdf,True
+INV-2026-1102,Kaveri Textiles,2026-11-17,48000.0,8640.0,56640.0,INV-2026-1102.pdf,True
+INV-2026-1103,HomeNest Kitchenware,2026-11-18,30500.0,5490.0,36500.0,INV-2026-1103.pdf,False
