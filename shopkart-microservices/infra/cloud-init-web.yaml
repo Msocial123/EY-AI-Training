@@ -1,0 +1,24 @@
+#cloud-config
+# Runs ONCE when the VM boots for the first time.
+# Starts a tiny web server on port 80 that shows the VM's name,
+# plus a /health page for the load balancer probe.
+# Uses only Python that ships with Ubuntu -> no internet needed.
+write_files:
+  - path: /etc/systemd/system/shopkart-web.service
+    content: |
+      [Unit]
+      Description=ShopKart demo web page
+      After=network.target
+      [Service]
+      ExecStart=/usr/bin/python3 -m http.server 80 --directory /var/www/shopkart
+      Restart=always
+      [Install]
+      WantedBy=multi-user.target
+runcmd:
+  - mkdir -p /var/www/shopkart/products /var/www/shopkart/orders
+  - echo "<h1>ShopKart served by $(hostname)</h1>" > /var/www/shopkart/index.html
+  - echo "ok" > /var/www/shopkart/health
+  - echo "<h1>PRODUCTS page from $(hostname)</h1>" > /var/www/shopkart/products/index.html
+  - echo "<h1>ORDERS page from $(hostname)</h1>" > /var/www/shopkart/orders/index.html
+  - systemctl daemon-reload
+  - systemctl enable --now shopkart-web

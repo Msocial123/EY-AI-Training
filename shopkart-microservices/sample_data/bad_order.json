@@ -1,0 +1,7 @@
+{
+  "customer_name": "R",
+  "email": "bad",
+  "phone": "123",
+  "items": [],
+  "shipping_address": {"line1": "x", "city": "Kadapa", "state": "AP", "pincode": "000000"}
+}

@@ -1,0 +1,16 @@
+{
+  "customer_name": "Ravi Kumar",
+  "email": "ravi@example.com",
+  "phone": "9876543210",
+  "items": [
+    {"product_id": 1, "quantity": 1},
+    {"product_id": 4, "quantity": 2}
+  ],
+  "shipping_address": {
+    "line1": "Flat 302, Sai Residency",
+    "city": "Kadapa",
+    "state": "Andhra Pradesh",
+    "pincode": "516003"
+  },
+  "payment_mode": "COD"
+}

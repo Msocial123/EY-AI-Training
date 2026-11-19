@@ -1,0 +1,21 @@
+# Web frameworks
+fastapi>=0.115
+uvicorn>=0.30
+flask>=3.0
+pydantic>=2.7
+
+# HTTP client (service-to-service calls + FastAPI TestClient)
+httpx>=0.27
+
+# Config
+python-dotenv>=1.0
+
+# Testing
+pytest>=8.0
+pytest-cov>=5.0
+
+# Azure SDKs
+azure-identity>=1.17
+azure-storage-blob>=12.20
+azure-storage-queue>=12.10
+azure-servicebus>=7.12

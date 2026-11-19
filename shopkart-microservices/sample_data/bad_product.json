@@ -1,0 +1,8 @@
+{
+  "name": "boAt Airdopes 141",
+  "category": "electronics",
+  "price": 5000,
+  "mrp": 4490,
+  "tags": ["audio"],
+  "seller": {"name": "boAt Store", "city": "Delhi", "rating": 4.2}
+}

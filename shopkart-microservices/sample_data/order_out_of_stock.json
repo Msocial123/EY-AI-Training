@@ -1,0 +1,16 @@
+{
+  "customer_name": "Priya Sharma",
+  "email": "priya@example.com",
+  "phone": "9123456780",
+  "items": [
+    {"product_id": 2, "quantity": 1},
+    {"product_id": 4, "quantity": 5}
+  ],
+  "shipping_address": {
+    "line1": "12 MG Road, Indiranagar",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "pincode": "560038"
+  },
+  "payment_mode": "CARD"
+}
