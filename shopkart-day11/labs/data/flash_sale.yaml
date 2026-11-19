@@ -1,0 +1,20 @@
+# Lab 1 input: tonight's flash sale (marketing team edits this file, not the code)
+sale:
+  name: Midnight Electronics Sale
+  starts_at: "2026-11-20 23:00"
+  ends_at: "2026-11-21 01:00"
+  max_units_per_customer: 2
+
+products:
+  - id: 101
+    name: Wireless Mouse
+    mrp: 999
+    sale_price: 549
+  - id: 104
+    name: Bluetooth Earbuds
+    mrp: 3499
+    sale_price: 1499
+  - id: 107
+    name: USB-C Charger
+    mrp: 1299
+    sale_price: 1399

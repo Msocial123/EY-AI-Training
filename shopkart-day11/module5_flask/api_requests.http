@@ -1,0 +1,41 @@
+### Use with the VS Code extension "REST Client" (by Huachao Mao).
+### Start the API first:  python m5_03_products_api.py
+### Then click "Send Request" above each block.
+
+@base = http://127.0.0.1:5005
+
+### 1. List all products
+GET {{base}}/api/products
+
+### 2. Filter by category and price
+GET {{base}}/api/products?category=electronics&max_price=1000
+
+### 3. One product
+GET {{base}}/api/products/101
+
+### 4. Not found -> 404
+GET {{base}}/api/products/999
+
+### 5. Create a product -> 201
+POST {{base}}/api/products
+Content-Type: application/json
+
+{"name": "Yoga Mat", "price": 899, "stock": 30, "category": "fitness"}
+
+### 6. Invalid product -> 422 with details
+POST {{base}}/api/products
+Content-Type: application/json
+
+{"name": "TV", "price": -10, "stock": "many"}
+
+### 7. Partial update (price drop for a sale) -> 200
+PATCH {{base}}/api/products/101
+Content-Type: application/json
+
+{"price": 699}
+
+### 8. Delete -> 204
+DELETE {{base}}/api/products/102
+
+### 9. Unexpected bug -> clean 500 JSON
+GET {{base}}/api/crash

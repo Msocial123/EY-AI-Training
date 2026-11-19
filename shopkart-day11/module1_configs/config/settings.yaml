@@ -1,0 +1,27 @@
+# ShopKart main settings (development defaults)
+app:
+  name: ShopKart
+  environment: development
+  debug: true
+
+store:
+  currency: INR
+  gst_percent: 18
+  free_shipping_above: 499
+  shipping_fee: 49
+  low_stock_threshold: 5
+
+payment:
+  provider: razorpay-sandbox
+  timeout_seconds: 5
+  max_retries: 3
+
+features:
+  cash_on_delivery: true
+  coupons_enabled: true
+
+coupons:
+  - code: WELCOME10
+    discount_percent: 10
+  - code: FEST20
+    discount_percent: 20

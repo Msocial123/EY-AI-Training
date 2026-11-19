@@ -1,0 +1,5 @@
+08:06:57 | INFO     | priya paid Rs.799, balance now Rs.11201
+08:06:57 | WARNING  | Payment of Rs.20000 refused: balance Rs.11201, needed Rs.20000
+08:06:57 | INFO     | priya paid Rs.8500, balance now Rs.2701
+08:06:57 | WARNING  | Payment of Rs.1200 refused: daily limit Rs.10000 reached
+08:06:57 | ERROR    | Bad request: amount must be positive

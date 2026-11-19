@@ -1,0 +1,8 @@
+[
+  {"product_id": 101, "customer_name": "Priya", "rating": 5, "comment": "Smooth clicks and long battery life.", "verified_buyer": true},
+  {"product_id": 101, "customer_name": "Rahul", "rating": 6, "comment": "Best mouse ever!!!"},
+  {"product_id": 104, "customer_name": "Anu", "rating": 1, "comment": "Bad sound."},
+  {"product_id": 104, "customer_name": "Kiran", "rating": "4", "comment": "Good bass for the price, fits well."},
+  {"product_id": 102, "customer_name": "", "rating": 3, "comment": "Colour faded after two washes."},
+  {"product_id": 102, "customer_name": "Meena", "rating": 2, "comment": "Size runs small, had to return it for a bigger one."}
+]

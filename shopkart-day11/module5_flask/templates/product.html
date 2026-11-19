@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="card">
+  <h2>{{ product.name }}</h2>
+  <p><span class="price">Rs.{{ "%.0f"|format(product.price) }}</span>
+     <span class="mrp">MRP Rs.{{ "%.0f"|format(product.mrp) }}</span></p>
+
+  {% if request.args.get('subscribed') %}
+    <p class="ok">Done! We will email you when it is back in stock.</p>
+  {% endif %}
+
+  {% if product.stock > 0 %}
+    <p>In stock: {{ product.stock }}</p>
+    <button>Add to cart</button>
+  {% else %}
+    <p class="out">Currently out of stock</p>
+    <a href="{{ url_for('notify_me', product_id=product.id) }}"><button>Notify me</button></a>
+  {% endif %}
+</div>
+<p><a href="{{ url_for('index') }}">&larr; Back to all products</a></p>
+{% endblock %}

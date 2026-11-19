@@ -1,0 +1,8 @@
+# Only the values that are DIFFERENT in production
+app:
+  environment: production
+  debug: false
+
+payment:
+  provider: razorpay-live
+  timeout_seconds: 10

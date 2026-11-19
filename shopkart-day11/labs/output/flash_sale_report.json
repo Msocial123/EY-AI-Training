@@ -1,0 +1,27 @@
+{
+  "sale": "Midnight Electronics Sale",
+  "deals": [
+    {
+      "id": 101,
+      "name": "Wireless Mouse",
+      "mrp": 999,
+      "sale_price": 549,
+      "percent_off": 45
+    },
+    {
+      "id": 104,
+      "name": "Bluetooth Earbuds",
+      "mrp": 3499,
+      "sale_price": 1499,
+      "percent_off": 57
+    }
+  ],
+  "mistakes": [
+    {
+      "id": 107,
+      "name": "USB-C Charger",
+      "mrp": 1299,
+      "sale_price": 1399
+    }
+  ]
+}

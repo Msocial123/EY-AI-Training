@@ -1,0 +1,18 @@
+2026-11-19 07:50:28,826 | DEBUG    | shopkart.orders | m3_02_logging_to_file.py:34 | Validating order ORD-3001 for priya@example.com
+2026-11-19 07:50:28,826 | INFO     | shopkart.orders | m3_02_logging_to_file.py:35 | Order ORD-3001 placed by priya@example.com, amount Rs.2097.00
+2026-11-19 07:50:28,826 | DEBUG    | shopkart.orders | m3_02_logging_to_file.py:34 | Validating order ORD-3002 for rahul@example.com
+2026-11-19 07:50:28,826 | INFO     | shopkart.orders | m3_02_logging_to_file.py:35 | Order ORD-3002 placed by rahul@example.com, amount Rs.74999.00
+2026-11-19 07:50:28,826 | WARNING  | shopkart.orders | m3_02_logging_to_file.py:37 | High value order ORD-3002 - send for fraud check
+2026-11-19 07:50:28,826 | INFO     | shopkart.payments | m3_02_logging_to_file.py:44 | Refund started for ORD-2990
+2026-11-19 07:53:03,130 | DEBUG    | shopkart.orders | m3_02_logging_to_file.py:34 | Validating order ORD-3001 for priya@example.com
+2026-11-19 07:53:03,130 | INFO     | shopkart.orders | m3_02_logging_to_file.py:35 | Order ORD-3001 placed by priya@example.com, amount Rs.2097.00
+2026-11-19 07:53:03,130 | DEBUG    | shopkart.orders | m3_02_logging_to_file.py:34 | Validating order ORD-3002 for rahul@example.com
+2026-11-19 07:53:03,130 | INFO     | shopkart.orders | m3_02_logging_to_file.py:35 | Order ORD-3002 placed by rahul@example.com, amount Rs.74999.00
+2026-11-19 07:53:03,130 | WARNING  | shopkart.orders | m3_02_logging_to_file.py:37 | High value order ORD-3002 - send for fraud check
+2026-11-19 07:53:03,130 | INFO     | shopkart.payments | m3_02_logging_to_file.py:44 | Refund started for ORD-2990
+2026-11-19 07:53:50,469 | DEBUG    | shopkart.orders | m3_02_logging_to_file.py:34 | Validating order ORD-3001 for priya@example.com
+2026-11-19 07:53:50,469 | INFO     | shopkart.orders | m3_02_logging_to_file.py:35 | Order ORD-3001 placed by priya@example.com, amount Rs.2097.00
+2026-11-19 07:53:50,469 | DEBUG    | shopkart.orders | m3_02_logging_to_file.py:34 | Validating order ORD-3002 for rahul@example.com
+2026-11-19 07:53:50,469 | INFO     | shopkart.orders | m3_02_logging_to_file.py:35 | Order ORD-3002 placed by rahul@example.com, amount Rs.74999.00
+2026-11-19 07:53:50,469 | WARNING  | shopkart.orders | m3_02_logging_to_file.py:37 | High value order ORD-3002 - send for fraud check
+2026-11-19 07:53:50,469 | INFO     | shopkart.payments | m3_02_logging_to_file.py:44 | Refund started for ORD-2990

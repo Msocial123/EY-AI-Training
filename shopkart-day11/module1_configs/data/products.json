@@ -1,0 +1,6 @@
+[
+  {"id": 101, "name": "Wireless Mouse", "price": 799.0, "stock": 50, "category": "electronics", "tags": ["computer", "accessory"]},
+  {"id": 102, "name": "Cotton T-Shirt", "price": 499.0, "stock": 120, "category": "fashion", "tags": ["men", "summer"]},
+  {"id": 103, "name": "Steel Water Bottle", "price": 349.0, "stock": 0, "category": "home", "tags": ["kitchen"]},
+  {"id": 104, "name": "Bluetooth Earbuds", "price": 1999.0, "stock": 4, "category": "electronics", "tags": ["audio"]}
+]

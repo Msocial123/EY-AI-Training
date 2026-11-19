@@ -1,0 +1,15 @@
+{
+  "threshold": 5,
+  "items": [
+    {
+      "id": 103,
+      "name": "Steel Water Bottle",
+      "stock": 0
+    },
+    {
+      "id": 104,
+      "name": "Bluetooth Earbuds",
+      "stock": 4
+    }
+  ]
+}
